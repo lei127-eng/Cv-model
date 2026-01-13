@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ton Nom </title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="lestyle.css" />
+  <link rel="icon" href="images/Free.jpg" type="image/png">
+</head>
+
+<body>
+    <div class="matrix-bg" id="matrix-bg"></div>
+
+
+
+  <header>
+    <div class="logo">
+      <img src="images/Free.jpg" alt="Logo personnel" />
+    </div>
+    <h1 class="anim-texte">your name </h1>
+    <nav>
+      <ul>
+        <li><a href="#presentation">Présentation</a></li>
+        <li><a href="#realisations">Réalisations</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#timeline">Parcours</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    
+        
+        
+
+
+
+  <div class="cyber-easter-egg">
+    <div class="secret-message">01010100 01110010 01101111 01110110 11100101</div>
+    <div class="decoded-message">Secret System Activated</div>
+  </div>
+</header>
+
+
+
+
+
+  <div class="music-player">
+    <audio id="background-music" loop>
+      <source src="musiques/Retro Lofi Rainy City Night ~ (Official Lofi Music Video )  Lotus Vibes.mp3" type="audio/mpeg" />
+      Votre navigateur ne supporte pas l’audio HTML5.
+    </audio>
+    <button id="toggle-music" aria-label="Activer/Désactiver la musique">
+      🔊
+    </button>
+  </div>
+  
+  
+
+
+
+
+  <section id="presentation">
+    <h2>Présentation</h2>
+    <div class="presentation-content">
+      <ul>
+        <li>Prénom : Prenom</li>
+        <li>Nom : Nom</li>
+        <li>Date de naissance : 00/00/0000</li>
+        <li>Ville : Ville</li>
+        <li>Email : <a href="mailto:tonmail@gmail.com">Tonmail@gmail.com</a></li>
+        <li>Réseaux : à venir</li>
+      </ul>
+      <img src="images/larry.webp" alt="Portrait" />
+    </div>
+    <div class="temoignages">
+      <blockquote>"    " – Enseignant</blockquote>
+      <blockquote>"  ." – Ami</blockquote>
+      <blockquote>"    ." – Collègue</blockquote>
+    </div>
+  </section>
+
+
+  
+
+
+  <section id="realisations">
+    <h2>Réalisations</h2>
+    <div class="slider">
+      
+      <a href="https://90s.myretrotvs.com/" target="_blank" class="project-link" >
+        <img src="images/2.png" alt="Projet 1">
+      </a>
+      
+      
+      <a href="https://www.lofi.cafe/" target="_blank" class="project-link">
+        <img src="images/capture.png" alt="Projet 2">
+      </a>
+      
+      
+      <a href="https://emupedia.net/beta/emuos/" target="_blank" class="project-link">
+        <img src="images/3.png" alt="Projet 3">
+      </a>
+    </div>
+  </section>
+
+  
+
+
+
+  <section id="competences">
+    <h2>Compétences</h2>
+    <div class="skills">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">Python</div>
+      <div class="skill">Java</div>
+      <div class="skill">Lua</div>
+      <div class="skill">Anglais</div>
+      <div class="skill">Espagnol</div>
+      <div class="skill">Mandarin</div>
+      <div class="skill">Cantonais</div>
+      <div class="skill">LSF</div>
+    </div>
+  </section>
+
+
+  
+
+
+
+  <section id="timeline">
+    <h2>Parcours</h2>
+    <ul class="timeline">
+      <li><span>2022</span> – Diplome </li>
+      <li><span>2023</span> – Diplome</li>
+      <li><span>2024</span> – Diplome</li>
+      <li><span>2025</span> – Diplome</li>
+    </ul>
+  </section>
+
+
+  
+
+
+
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <form method="post" action="mailto:tonmail@gmail.com" enctype="text/plain">
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required />
+
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" name="prenom" required />
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="selfie">Fichiers :</label>
+      <input type="file" id="selfie" name="selfie" accept="image/*" capture="user" />
+      <img id="preview" src="" alt="Aperçu du selfie" style="display: none; margin-top: 10px; width: 150px; height: auto; border-radius: 10px; border: 2px solid #00f9ff; box-shadow: 0 0 10px #ff00f2;">
+
+
+
+      <label for="motif">Motif :</label>
+      <select id="motif" name="motif">
+        <option>Professionnel</option>
+        <option>Universitaire</option>
+        <option>Personnel</option>
+      </select>
+
+      <p>Type :</p>
+      <label><input type="radio" name="type" value="Urgent" required /> Urgent</label>
+      <label><input type="radio" name="type" value="Prioritaire" /> Prioritaire</label>
+      <label><input type="radio" name="type" value="Non précisé" /> Non précisé</label>
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" rows="5"></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+
+  <div class="assistant">
+    <img src="images/james.webp" alt="Assistant virtuel" class="mascotte-img" />
+    <div class="bubble">
+      <p>Besoin d'aide ? James est là !</p>
+    </div>
+  </div>
+  
+
+
+
+
+
+  <footer>
+    <div class="logo-footer">LM</div>
+
+    <p>Dernière mise à jour : avril 2025</p>
+  </footer>
+
+
+
+
+
+  <script>
+    const audio = document.getElementById("background-music");
+    const btn = document.getElementById("toggle-music");
+    let isPlaying = false;
+  
+    btn.addEventListener("click", () => {
+      if (!isPlaying) {
+        audio.play();
+        btn.textContent = "🔇";
+      } else {
+        audio.pause();
+        btn.textContent = "🔊";
+      }
+      isPlaying = !isPlaying;
+    });
+  </script>
+<script>
+    const input = document.getElementById("selfie");
+    const preview = document.getElementById("preview");
+  
+    input.addEventListener("change", function(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          preview.src = e.target.result;
+          preview.style.display = "block"; 
+        };
+        reader.readAsDataURL(file);
+      } else {
+        preview.style.display = "none"; 
+      }
+    });
+  </script>
+
+</body>
+</html>
